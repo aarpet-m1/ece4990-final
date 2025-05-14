@@ -37,3 +37,13 @@ In order to download your weights and images, click on the folder on the left of
 
 Known Issue: Free T4 GPU in Google Colab will not run the RF-DETR model as it requires more VRAM.
 
+Links to datasets used:
+
+https://universe.roboflow.com/pcbdetection-vrcbf/pcb-electronic-components-yalh6-xgqeo 
+https://universe.roboflow.com/dainius/smdcomponents
+https://universe.roboflow.com/roboflow-100/printed-circuit-board
+
+Make sure not to modify the 2nd variable to the importing dataset code block as these datasets are all in coco format.
+For example, the datasets used are all coco format.
+dataset = download_dataset("URL", "coco")
+Unless known that dataset is prepared in a different format, do not modify the "coco". 
