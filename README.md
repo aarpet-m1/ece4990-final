@@ -23,6 +23,8 @@ In Colab, go to the left pane and click on Secrets (🔑).
 Store HuggingFace Access Token under the name HF_TOKEN.
 Store Roboflow API Key under the name ROBOFLOW_API_KEY.
 }
+
+
 Now that your API key is found, you can run the next block to add huggingface or roboflow api key to access your account.
 Next, run the Nvidia-smi block to confirm there is a running GPU in the notebook.
 Install the dependencies so the RF-detr model is ready to be used.
